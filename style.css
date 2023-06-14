@@ -1,0 +1,25 @@
+#displayContent {
+  display: none;
+  text-align: center;
+  margin-top: 40vh;
+  transform: translateY(-50%);
+}
+#loadingAnimation {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 12vh;
+  height: 12vh;
+  border: 16px solid #f3f3f3;
+  border-radius: 48%;
+  border-top: 16px solid #d31f43;
+  animation: spin 2s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
